@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet</title>
+    <!-- daisyUi and Tailwind CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="bg-[#FFF9F4]">
+      <nav class="w-11/12 mx-auto flex justify-between">
+        <div class="logo-container flex items-center gap-3 flex-1">
+          <img src="./images/logo-header.png" alt="" />
+          <h1 class="max-sm:hidden">Browse4Pets</h1>
+        </div>
+        <div
+          class="menus flex list-none items-center justify-center gap-6 flex-1 max-sm:hidden max-md:hidden max-lg:hidden"
+        >
+          <li>Find a pet</li>
+          <li>Breeds</li>
+          <li>Contact us</li>
+        </div>
+        <div
+          class="nav-btn-container flex items-center gap-3 justify-end flex-1 max-sm:hidden max-md:hidden"
+        >
+          <i class="fa-regular fa-bell"></i>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <button class="btn btn-outline btn-warning px-6]">Login</button>
+          <button class="btn btn-warning my-2 px-6 text-center bg-[#FFDC26">
+            Register
+          </button>
+        </div>
+
+        <div class="lg:hidden">
+          <div class="dropdown pr-2">
+            <label tabindex="1" class="btn btn-ghost btn-circle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h7"
+                />
+              </svg>
+            </label>
+
+            <div class="relative inline-block text-center">
+              <ul
+                tabindex="1"
+                class="dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 border-2 w-28 right-0 text-black"
+              >
+                <li><a>Find a pet</a></li>
+                <li><a>Breeds</a></li>
+                <li><a>Contact us</a></li>
+              </ul>
+            </div>
+            <!-- dropdown-content for right side -->
+          </div>
+        </div>
+      </nav>
+      <!-- End of Nav section -->
+    </header>
+    <main>
+      <!-- Hero Section start -->
+      <div
+        class="hero-section w-11/12 bg-[url('./images/cat-big.png')] mx-auto h-[680px] md:h-[540px] bg-center bg-contain bg-no-repeat"
+      >
+        <div class="hero-title space-y-5">
+          <h1 class="text-3xl md:text-5xl pt-10">
+            Pamper Your Pet,<br />
+            Because They Deserve <br />
+            the Bes
+          </h1>
+          <p class="text-gray-300">
+            Discover a world of treats, toys, and essentials handpicked for
+            <br />
+            your furry friends. Shop now and make tails wag with joy!
+          </p>
+          <button class="btn btn-warning">Find a Pet</button>
+        </div>
+      </div>
+
+      <!-- Hero Section End -->
+      <!-- Catagories Section Start -->
+      <div class="-mt-44 catagori md:my-16 text-3xl w-11/12 mx-auto">
+        <h1>Browse By Categories</h1>
+        <div
+          class="catagori-boxes text-center grid sm:grid-cols-2 lg:grid-cols-6 gap-4 mt-10"
+        >
+          <div class="box-one bg-[#F9DF8A] p-5 rounded-lg">
+            <div class="catagori-img bg-white w-[50%] rounded-full mx-auto">
+              <img
+                src="./images/dog-cartoon.png"
+                alt=""
+                class="w-[100%] mx-auto p-5"
+              />
+            </div>
+            <div class="catagori-detail">
+              <h1>Dog</h1>
+              <p>3 items</p>
+            </div>
+          </div>
+
+          <!-- Catagori Box-2 -->
+          <div class="box-one bg-[#F9DF8A] p-5 rounded-lg">
+            <div class="catagori-img bg-white w-[50%] rounded-full mx-auto">
+              <img
+                src="./images/fish-cartoon.png"
+                alt=""
+                class="w-[100%] mx-auto p-5"
+              />
+            </div>
+            <div class="catagori-detail">
+              <h1>Dog</h1>
+              <p>3 items</p>
+            </div>
+          </div>
+          <!-- catagori box-3 -->
+
+          <div class="box-one bg-[#F9DF8A] p-5 rounded-lg">
+            <div class="catagori-img bg-white w-[50%] rounded-full mx-auto">
+              <img
+                src="./images/cat-cartoon.png"
+                alt=""
+                class="w-[100%] mx-auto p-5"
+              />
+            </div>
+            <div class="catagori-detail">
+              <h1>Dog</h1>
+              <p>3 items</p>
+            </div>
+          </div>
+
+          <!--Catagori Box-4 -->
+          <div class="box-one bg-[#F9DF8A] p-5 rounded-lg">
+            <div class="catagori-img bg-white w-[50%] rounded-full mx-auto">
+              <img
+                src="./images/bird-cartoon.png"
+                alt=""
+                class="w-[100%] mx-auto p-5"
+              />
+            </div>
+            <div class="catagori-detail">
+              <h1>Dog</h1>
+              <p>3 items</p>
+            </div>
+          </div>
+          <!-- Catagori Box-5 -->
+          <div class="box-one bg-[#F9DF8A] p-5 rounded-lg">
+            <div class="catagori-img bg-white w-[50%] rounded-full mx-auto">
+              <img
+                src="./images/mouse-cartoon.png"
+                alt=""
+                class="w-[100%] mx-auto p-5"
+              />
+            </div>
+            <div class="catagori-detail">
+              <h1>Dog</h1>
+              <p>3 items</p>
+            </div>
+          </div>
+          <!-- Catagori Box-6 -->
+          <div class="box-one bg-[#F9DF8A] p-5 rounded-lg">
+            <div class="catagori-img bg-white w-[50%] rounded-full mx-auto">
+              <img
+                src="./images/rabbit-cartoon.png "
+                alt=""
+                class="w-[94%] text-center mx-auto p-5"
+              />
+            </div>
+            <div class="catagori-detail">
+              <h1>Dog</h1>
+              <p>3 items</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
