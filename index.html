@@ -22,11 +22,11 @@
     />
   </head>
   <body>
-    <header class="bg-[#FFF9F4]">
+    <header class="bg-[#FFF9F4] max-sm:border max-sm:border-yellow-500 max-sm:py-4">
       <nav class="w-11/12 mx-auto flex justify-between">
         <div class="logo-container flex items-center gap-3 flex-1">
           <img src="./images/logo-header.png" alt="" />
-          <h1 class="max-sm:hidden">Browse4Pets</h1>
+          <h1 class="max-sm:hidden font-semibold text-xl">Browse<span class="text-yellow-500">4</span>Pets</h1>
         </div>
         <div
           class="menus flex list-none items-center justify-center gap-6 flex-1 max-sm:hidden max-md:hidden max-lg:hidden"
@@ -40,7 +40,7 @@
         >
           <i class="fa-regular fa-bell"></i>
           <i class="fa-solid fa-magnifying-glass"></i>
-          <button class="btn btn-outline btn-warning px-6]">Login</button>
+          <button class="btn btn-outline btn-warning text-black px-6 ]">Login</button>
           <button class="btn btn-warning my-2 px-6 text-center bg-[#FFDC26">
             Register
           </button>
@@ -68,7 +68,7 @@
             <div class="relative inline-block text-center">
               <ul
                 tabindex="1"
-                class="dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 border-2 w-28 right-0 text-black"
+                class="dropdown-content mt-4 z-[30] p-2 shadow bg-base-100 border-2 w-32 right-0 text-black"
               >
                 <li><a>Find a pet</a></li>
                 <li><a>Breeds</a></li>
@@ -93,16 +93,16 @@
           <div
             class="hero-title space-y-3 md:space-y-5 z-10 absolute top-1 md:top-7 left-0"
           >
-            <h1 class="text-3xl md:text-5xl pt-3 md:pt-10">
+            <h1 class="text-3xl md:text-5xl font-bold pt-3 md:pt-10">
               Pamper Your Pet,<br />
               Because They Deserve <br />
               the Bes
             </h1>
-            <p class="text-gray-300 max-sm:w-72 md:w-[70%] mb-10">
+            <p class="text-gray-900 max-sm:w-72 md:w-[70%] mb-10">
               Discover a world of treats, toys, and essentials handpicked for
               your furry friends. Shop now and make tails wag with joy!
             </p >
-            <button class=" btn btn-warning animate-bounce focus:animate-none hover:animate-none inline-flex text-md font-medium  mt-3 px-4 py-2 rounded-lg tracking-wide text-white">Find a Pet</button>
+            <button class=" btn btn-warning animate-bounce focus:animate-none hover:animate-none inline-flex text-md font-medium  mt-3 px-4 py-2 rounded-lg tracking-wide text-black">Find a Pet</button>
 
           </div>
         </div>
@@ -112,10 +112,11 @@
 
       <!-- Catagories Section Start -->
       <div class="catagori md:my-16 text-3xl w-11/12 mx-auto">
-        <h1 class="mt-10">Browse By Categories</h1>
+        <h1 class="mt-10 text-3xl font-semibold">Browse By Categories</h1>
         <div
           class="catagori-boxes text-center grid sm:grid-cols-2 lg:grid-cols-6 gap-4 mt-10"
         >
+        <!-- Box one -->
           <div class="box-one bg-[#F9DF8A] p-5 rounded-lg">
             <div class="catagori-img bg-white w-[50%] rounded-full mx-auto">
               <img
@@ -124,9 +125,9 @@
                 class="w-[100%] mx-auto p-5"
               />
             </div>
-            <div class="catagori-detail">
-              <h1>Dog</h1>
-              <p>3 items</p>
+            <div class="catagori-detail mt-3">
+              <h1 class="font-semibold text-3xl">Dog</h1>
+              <p class="text-xl">3 items</p>
             </div>
           </div>
 
@@ -139,9 +140,9 @@
                 class="w-[100%] mx-auto p-5"
               />
             </div>
-            <div class="catagori-detail">
-              <h1>Dog</h1>
-              <p>3 items</p>
+            <div class="catagori-detail mt-3">
+              <h1 class="font-semibold text-3xl">Fish</h1>
+              <p class="text-xl">3 items</p>
             </div>
           </div>
           <!-- catagori box-3 -->
@@ -154,9 +155,9 @@
                 class="w-[100%] mx-auto p-5"
               />
             </div>
-            <div class="catagori-detail">
-              <h1>Dog</h1>
-              <p>3 items</p>
+            <div class="catagori-detail mt-3">
+              <h1 class="font-semibold text-3xl">Cat</h1>
+              <p class="text-xl">3 items</p>
             </div>
           </div>
 
@@ -169,9 +170,9 @@
                 class="w-[100%] mx-auto p-5"
               />
             </div>
-            <div class="catagori-detail">
-              <h1>Dog</h1>
-              <p>3 items</p>
+            <div class="catagori-detail mt-3">
+              <h1 class="font-semibold text-3xl">Bird</h1>
+              <p class="text-xl">3 items</p>
             </div>
           </div>
           <!-- Catagori Box-5 -->
@@ -183,9 +184,9 @@
                 class="w-[100%] mx-auto p-5"
               />
             </div>
-            <div class="catagori-detail">
-              <h1>Dog</h1>
-              <p>3 items</p>
+            <div class="catagori-detail mt-3">
+              <h1 class="font-semibold text-3xl">Small pet</h1>
+              <p class="text-xl">3 items</p>
             </div>
           </div>
           <!-- Catagori Box-6 -->
@@ -197,9 +198,9 @@
                 class="w-[94%] text-center mx-auto p-5"
               />
             </div>
-            <div class="catagori-detail">
-              <h1>Dog</h1>
-              <p>3 items</p>
+            <div class="catagori-detail mt-3">
+              <h1 class="font-semibold text-3xl">Rabbit</h1>
+              <p class="text-xl">3 items</p>
             </div>
           </div>
         </div>
@@ -208,7 +209,7 @@
       <!-- Trending Section Start-->
       <div class="w-full bg-[#FFF9F4] mt-10">
         <div class="ternding w-11/12 mx-auto py-10">
-          <h1 class="text-3xl pb-10">Trending Pet Products</h1>
+          <h1 class="text-3xl font-semibold pb-10">Trending Pet Products</h1>
           <div class="trending-container grid gap-5 md:grid-cols-3">
             <div
               class="info md:col-span-1 relative h-[360px] w-[100%] rounded-lg bg-no-repeat bg-right-bottom bg-contain bg-gradient-to-r from-[#F9DF8A] to-[#F9DF8A] ... pl-10"
@@ -218,12 +219,11 @@
                 alt=""
                 class="absolute bottom-0 right-0"
               />
-              <h1 class="text-2xl mt-10">T -shirt for dog</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
-                facilis!
+              <h1 class="text-2xl font-bold mt-10">T -shirt for dog</h1>
+              <p class="py-3">
+                Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!
               </p>
-              <button>shop now</button>
+              <button class="btn text-xl">Shop now</button>
             </div>
 
             <div
@@ -232,7 +232,7 @@
               <div
                 class="box-1 p-2 bg-white flex items-center gap-2 rounded-lg"
               >
-                <div class="img bg-[#FFF9F4]">
+                <div class="img bg-[#FFF9F4] rounded-lg">
                   <img
                     src="./images/cat-cartoon.png"
                     alt=""
@@ -251,7 +251,7 @@
               <div
                 class="box-1 p-2 bg-white flex items-center gap-2 rounded-lg"
               >
-                <div class="img bg-[#FFF9F4]">
+                <div class="img bg-[#FFF9F4] rounded-lg">
                   <img
                     src="./images/dog-cartoon.png"
                     alt=""
@@ -269,9 +269,9 @@
               <div
                 class="box-1 p-2 bg-white flex items-center gap-2 rounded-lg"
               >
-                <div class="img bg-[#FFF9F4]">
+                <div class="img bg-[#FFF9F4] rounded-lg">
                   <img
-                    src="./images/cat-cartoon.png"
+                    src="./images/bird-cartoon.png"
                     alt=""
                     class="w-full p-4"
                   />
@@ -288,9 +288,9 @@
               <div
                 class="box-1 p-2 bg-white flex items-center gap-2 rounded-lg"
               >
-                <div class="img bg-[#FFF9F4]">
+                <div class="img bg-[#FFF9F4] rounded-lg">
                   <img
-                    src="./images/cat-cartoon.png"
+                    src="./images/fish-cartoon.png"
                     alt=""
                     class="w-full p-4"
                   />
@@ -306,9 +306,9 @@
               <div
                 class="box-1 p-2 bg-white flex items-center gap-2 rounded-lg"
               >
-                <div class="img bg-[#FFF9F4]">
+                <div class="img bg-[#FFF9F4] rounded-lg">
                   <img
-                    src="./images/cat-cartoon.png"
+                    src="./images/bird-cartoon.png"
                     alt=""
                     class="w-full p-4"
                   />
@@ -325,9 +325,9 @@
               <div
                 class="box-1 p-2 bg-white flex items-center gap-2 rounded-lg"
               >
-                <div class="img bg-[#FFF9F4]">
+                <div class="img bg-[#FFF9F4] rounded-lg">
                   <img
-                    src="./images/cat-cartoon.png"
+                    src="./images/rabbit-cartoon.png"
                     alt=""
                     class="w-full p-4"
                   />
@@ -343,9 +343,9 @@
               <div
                 class="box-1 p-2 bg-white flex items-center gap-2 rounded-lg"
               >
-                <div class="img bg-[#FFF9F4]">
+                <div class="img bg-[#FFF9F4] rounded-lg">
                   <img
-                    src="./images/cat-cartoon.png"
+                    src="./images/pet-couch.png"
                     alt=""
                     class="w-full p-4"
                   />
@@ -361,7 +361,7 @@
               <div
                 class="box-1 p-2 bg-white flex items-center gap-2 rounded-lg"
               >
-                <div class="img bg-[#FFF9F4]">
+                <div class="img bg-[#FFF9F4] rounded-lg">
                   <img
                     src="./images/cat-cartoon.png"
                     alt=""
@@ -379,9 +379,9 @@
               <div
                 class="box-1 p-2 bg-white max-sm:hidden flex items-center gap-2 rounded-lg"
               >
-                <div class="img bg-[#FFF9F4]">
+                <div class="img bg-[#FFF9F4] rounded-lg">
                   <img
-                    src="./images/cat-cartoon.png"
+                    src="./images/dog-cartoon.png"
                     alt=""
                     class="w-full p-4"
                   />
@@ -400,7 +400,7 @@
       <!--  Trending Section End-->
       <!-- Everyday Section Start -->
       <div class="everyday my-10 w-11/12 mx-auto">
-        <h1 class="my-5 text-3xl">Trending Section Start</h1>
+        <h1 class="my-5 text-3xl font-semibold">Everyday low Price</h1>
         <div class="price-container md:flex my-10">
           <div
             class="rounded-lg relative z-0 price-box-1 flex sm:w-full md:w-[55%] items-start justify-end bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD]"
@@ -434,7 +434,7 @@
             <div
               class="price-box-1-title pl-10 md:pl-15 absolute z-10 lg:top-12 left-0 max-sm:top-4 space-y-2"
             >
-              <p class="max-lg:hidden">Under Price</p>
+              
               <h1 class="text-2xl md:text-3xl font-semibold">
                 T-Shirt for Dogs
               </h1>
@@ -466,12 +466,12 @@
           <button class="btn btn-warning">Subscribe</button>
         </div>
       </div>
-      <div class="bg-[#FFDC2680] max-sm:h-[650px] md:h-[400px] lg:h-[600px]  max-sm:-mt-[60%] md:-mt-[18%]  z-0 top-96 pb-20">
+      <div class="bg-[#FFDC2680] max-sm:h-[750px] md:h-[400px] lg:h-[600px]  max-sm:-mt-[60%] md:-mt-[18%]  z-0 top-96 pb-20">
         <div class="w-11/12 mx-auto max-sm:pt-[85%] md:pt-[30%] max-sm:flex-col md:flex gap-5 justify-between items-center  pb-5 space-y-3">
           <div class="flex-1">
             <div class="footer-logo flex items-center gap-2">
               <img src="./images/logo-footer.png" alt="">
-              <h1>Browse<span class="text-yellow-500">4</span>Pets</h1>
+              <h1 class="text-2xl">Browse<span class="text-yellow-500">4</span>Pets</h1>
             </div>
             <p>Discover a world of treats, toys, and <br> essentials handpicked for your furry friends</p>
           </div>
