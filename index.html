@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pet</title>
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
     <!-- daisyUi and Tailwind CDN -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
@@ -20,9 +25,21 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- custom css -->
+    <style>
+      .adlam-display {
+  font-family: "ADLaM Display", serif;
+}
+.sora{
+  font-family: "Sora", serif;
+  
+}
+    </style>
+    
   </head>
-  <body>
-    <header class="bg-[#FFF9F4] max-sm:border max-sm:border-yellow-500 max-sm:py-4">
+  <body class="adlam-display  ">
+    <header class="bg-[#FFF9F4] max-sm:border max-sm:border-yellow-500 max-sm:py-4 sora">
       <nav class="w-11/12 mx-auto flex justify-between">
         <div class="logo-container flex items-center gap-3 flex-1">
           <img src="./images/logo-header.png" alt="" />
@@ -98,11 +115,11 @@
               Because They Deserve <br />
               the Bes
             </h1>
-            <p class="text-gray-900 max-sm:w-72 md:w-[70%] mb-10">
+            <p class="text-gray-900 max-sm:w-72 md:w-[70%] mb-10 sora">
               Discover a world of treats, toys, and essentials handpicked for
               your furry friends. Shop now and make tails wag with joy!
             </p >
-            <button class=" btn btn-warning animate-bounce focus:animate-none hover:animate-none inline-flex text-md font-medium  mt-3 px-4 py-2 rounded-lg tracking-wide text-black">Find a Pet</button>
+            <button class="sora btn btn-warning animate-bounce focus:animate-none hover:animate-none inline-flex text-md font-medium  mt-3 px-4 py-2 rounded-lg tracking-wide text-black">Find a Pet</button>
 
           </div>
         </div>
@@ -126,8 +143,8 @@
               />
             </div>
             <div class="catagori-detail mt-3">
-              <h1 class="font-semibold text-3xl">Dog</h1>
-              <p class="text-xl">3 items</p>
+              <h1 class="font-semibold text-3xl adlam-display">Dog</h1>
+              <p class="text-xl sora">3 items</p>
             </div>
           </div>
 
@@ -141,8 +158,8 @@
               />
             </div>
             <div class="catagori-detail mt-3">
-              <h1 class="font-semibold text-3xl">Fish</h1>
-              <p class="text-xl">3 items</p>
+              <h1 class="font-semibold text-3xl adlam-display">Fish</h1>
+              <p class="text-xl sora">3 items</p>
             </div>
           </div>
           <!-- catagori box-3 -->
@@ -156,8 +173,8 @@
               />
             </div>
             <div class="catagori-detail mt-3">
-              <h1 class="font-semibold text-3xl">Cat</h1>
-              <p class="text-xl">3 items</p>
+              <h1 class="font-semibold text-3xl adlam-display">Cat</h1>
+              <p class="text-xl sora">3 items</p>
             </div>
           </div>
 
@@ -171,8 +188,8 @@
               />
             </div>
             <div class="catagori-detail mt-3">
-              <h1 class="font-semibold text-3xl">Bird</h1>
-              <p class="text-xl">3 items</p>
+              <h1 class="font-semibold text-3xl adlam-display">Bird</h1>
+              <p class="text-xl sora">3 items</p>
             </div>
           </div>
           <!-- Catagori Box-5 -->
@@ -185,8 +202,8 @@
               />
             </div>
             <div class="catagori-detail mt-3">
-              <h1 class="font-semibold text-3xl">Small pet</h1>
-              <p class="text-xl">3 items</p>
+              <h1 class="font-semibold text-3xl adlam-display">Small pet</h1>
+              <p class="text-xl sora">3 items</p>
             </div>
           </div>
           <!-- Catagori Box-6 -->
@@ -199,8 +216,8 @@
               />
             </div>
             <div class="catagori-detail mt-3">
-              <h1 class="font-semibold text-3xl">Rabbit</h1>
-              <p class="text-xl">3 items</p>
+              <h1 class="font-semibold text-3xl adlam-display">Rabbit</h1>
+              <p class="text-xl sora">3 items</p>
             </div>
           </div>
         </div>
@@ -220,15 +237,16 @@
                 class="absolute bottom-0 right-0 md:w-[35%] lg:w-[50%] xl:w-[52%]"
               />
               <h1 class="text-2xl font-bold mt-10">T -shirt for dog</h1>
-              <p class="py-3">
+              <p class="py-3 sora">
                 Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!
               </p>
-              <button class="btn lg:text-xl lg:px-1 bg-white ">Shop now</button>
+              <button class="sora btn lg:text-xl lg:px-1 bg-white ">Shop now</button>
             </div>
 
             <div
-              class="grid trending-boxes md:col-span-2 grid-cols-2 md:grid-cols-3 gap-5"
+              class="grid trending-boxes md:col-span-2 grid-cols-2 md:grid-cols-3 gap-5 sora"
             >
+              <!-- ===========box-1 start========= -->
               <div
                 class="box-1 p-2 bg-white flex items-center gap-2 rounded-lg"
               >
@@ -481,11 +499,11 @@
       <!-- Everyday Section End --> 
       
     </main>
-    <footer  class="md:mt-[5%] ">
+    <footer  class="md:mt-[5%] sora">
       <div class="news-section w-11/12 mx-auto  py-5 bg-[#FFF9F4] z-10  rounded-xl  md:flex items-center justify-center relative">
         <div class="  md:w-[35%] flex justify-center px-10 py-5 z-20"><img src="./images/cute-pet-mid.png" class="w-64" alt=""></div>
         <div class="md:text-left  max-sm:text-center space-y-5 ">
-          <h1 class="text-3xl font-bold">Get Pawsome News!</h1>
+          <h1 class="text-3xl font-bold adlam-display">Get Pawsome News!</h1>
           <p>Exclusive training tips, ticks, product deals and more.</p>
           <input type="text" class="p-3 w-56 inline-block" placeholder="Enter email"> <br>
           <button class="btn btn-warning">Subscribe</button>
